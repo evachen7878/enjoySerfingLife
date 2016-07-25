@@ -16,6 +16,7 @@ max-concurrent-downloads=15
 max-connection-per-server=15
 check-integrity=true
 continue=true
+
 # BitTorrent/Metalink Options
 bt-enable-lpd=true
 bt-max-open-files=16
@@ -27,6 +28,7 @@ dht-listen-port=6801
 listen-port=6801
 max-overall-upload-limit=0K
 seed-ratio=0
+
 # RPC Options
 enable-rpc=true
 rpc-allow-origin-all=true
@@ -34,6 +36,7 @@ rpc-listen-all=true
 rpc-listen-port=6800
 #rpc-secret=123456
 #rpc-secure=true
+
 # Advanced Options
 daemon=true
 disable-ipv6=true
