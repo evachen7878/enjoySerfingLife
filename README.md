@@ -7,8 +7,8 @@ Make your internet serfing time be enjoyable~!
  安装目录在 /usr/local/aria2 下
 第二步： 下载Aria2所需文件
  参考：http://aria2c.com/usage.html 或 http://aria2.sourceforge.net/manual/en/html/aria2c.html
- -----------------------------------------------------------------------------------
- # Basic Options
+-----------------------------------------------------------------------------------
+# Basic Options
 dir=/Users/baidu/Downloads
 input-file=/Applications/aria2c/session.dat
 log=/Applications/aria2c/aria2.log
@@ -16,7 +16,6 @@ max-concurrent-downloads=15
 max-connection-per-server=15
 check-integrity=true
 continue=true
-
 # BitTorrent/Metalink Options
 bt-enable-lpd=true
 bt-max-open-files=16
@@ -28,7 +27,6 @@ dht-listen-port=6801
 listen-port=6801
 max-overall-upload-limit=0K
 seed-ratio=0
-
 # RPC Options
 enable-rpc=true
 rpc-allow-origin-all=true
@@ -36,7 +34,6 @@ rpc-listen-all=true
 rpc-listen-port=6800
 #rpc-secret=123456
 #rpc-secure=true
-
 # Advanced Options
 daemon=true
 disable-ipv6=true
@@ -49,7 +46,7 @@ save-session=/Applications/aria2c/session.dat
 always-resume=true
 split=10
 min-split-size=10M
- -----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
  复制以上的内容到新建的aria2.conf文件中
  dir=/Users/baidu/Downloads（第二行）的baidu是根目录的名字
  根目录下输入mkdir ~/.aria2生成隐形文件夹
